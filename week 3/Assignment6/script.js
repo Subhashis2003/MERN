@@ -1,6 +1,6 @@
 let arr=[]
 for (let i = 0; i <5; i++) {
-    let num=parseInt(prompt("enter the number"+(i+1)+":"));
+    let num=parseFloat(prompt("enter the number"+(i+1)+":"));
     arr.push(num)
 }
 let sum=0;
